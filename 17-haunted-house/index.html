@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<!-- 这段代码的意思是告诉浏览器：“请将 /threejs.png 这个 PNG 图片作为网页的 favicon（网站图标）”。
+		 浏览器会在标签页、书签栏等地方显示这个图标。 
+		 type="image/png" 表示图标是一个 PNG 格式的图片
+		 rel="icon" 表示这个链接指向的是网页的图标（favicon）-->
+		<link rel="icon" type="image/png" href="/threejs.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>17 - Haunted House</title>
+	</head>
+	<body>
+		<div id="app">
+			<canvas class="webgl"></canvas>
+		</div>
+		<script type="module" src="/src/main.ts"></script>
+	</body>
+</html>
