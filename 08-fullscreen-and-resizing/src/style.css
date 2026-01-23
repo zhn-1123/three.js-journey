@@ -1,0 +1,23 @@
+/* 
+去除浏览器默认样式
+*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  /* 禁止滚动条,无法超越限制 */
+  overflow: hidden;
+}
+
+/* 画布定位在左上角 */
+.webgl {
+  /* 固定定位 */
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* 移除默认边框 */
+  outline: none;
+}
